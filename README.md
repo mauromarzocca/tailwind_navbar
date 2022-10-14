@@ -11,3 +11,7 @@ Navigation Bar responsive che ho realizzato utilizzando Javascript, HTML e CSS, 
 ## Mobile
 
 ![mobile](/img/mobile.png)
+
+---
+
+![mobile2](/img/mobile2.png)
