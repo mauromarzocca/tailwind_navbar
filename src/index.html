@@ -48,10 +48,23 @@
             </div>
         </div>
         <!-- Mobile Menu -->
+        <div class="hidden" id="mobile_menu">
+            <div class="flex flex-col gap-1 py-3">
+                <a href="" class="bg-gray-900 text-white block px-3 py-2 rounded-md font-medium">Dashboard</a>
+                <a href="#" class="text-gray hover:bg-white/5 text-white block px-3 py-2 rounded-md">Team</a>
+                <a href="#" class="text-gray hover:bg-white/5 text-white block px-3 py-2 rounded-md">Projects</a>
+                <a href="#" class="text-gray hover:bg-white/5 text-white block px-3 py-2 rounded-md">Calendar</a>
+            </div>
+        </div>
     </nav>
 
     <script>
+        let button = document.querySelector('[data-mobile-menu]');
+        let mobileMenu = document.getElementById('mobile-menu');
 
+        button.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        })
     </script>
 </body>
 </html>
